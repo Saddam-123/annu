@@ -1,0 +1,5 @@
+---
+- hosts: appserver (Generally here we write ip address but now write in group name)
+  tasks:
+   - name: ping into the node1
+     ping:
